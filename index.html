@@ -20,17 +20,16 @@
 <body>
     <div id="game"></div>
 
-    <script>
-        // EmulatorJS config
-        const EJS_player = "#game";
-        const EJS_core = "flycast_libretro";
-        const EJS_gameName = "Sonic Adventure 2";
-        const EJS_color = "#0064ff";
-        const EJS_startOnLoaded = true;
-        const EJS_pathtodata = "./data/";
-        const EJS_gameUrl = "https://archive.org/download/DreamcastCHD2020_P-Z/Sports%20Jam%20v1.001%20%282001%29%28Agetec%29%28US%29%5B%21%5D.chd";
-    </script>
+<script>
+    const EJS_player = "#game";
+    const EJS_core = "flycast_libretro"; // core name
+    const EJS_gameName = "Sonic Adventure 2";
+    const EJS_color = "#0064ff";
+    const EJS_startOnLoaded = true;
 
-    <script src="./data/loader.js"></script>
+    const EJS_pathtodata = "./cores/"; // core files here
+    const EJS_gameUrl = "./data/Sonic_Adventure_2.chd"; // game file here
+</script>
+<script src="./data/loader.js"></script>
 </body>
 </html>
