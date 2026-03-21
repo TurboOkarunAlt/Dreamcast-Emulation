@@ -12,45 +12,45 @@
         <div style="width:100%;height:100%;max-width:100%">
             <div id="game"></div>
         </div>
-    <!DOCTYPE html>
+        <!DOCTYPE html>
 
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Dreamcast Emulator</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            background: black;
-            height: 100%;
-            overflow: hidden;
-        }
-        #game {
-            width: 100%;
-            height: 100%;
-        }
-    </style>
-</head>
-<body>
-    <div id="game"></div>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Dreamcast Emulator</title>
+            <style>
+                html, body {
+                    margin: 0;
+                    padding: 0;
+                    background: black;
+                    height: 100%;
+                    overflow: hidden;
+                }
+                #game {
+                    width: 100%;
+                    height: 100%;
+                }
+            </style>
+        </head>
+        <body>
+            <div id="game"></div>
 
-```
-<script>
-    EJS_player = "#game";
-    EJS_core = "flycast_libretro";
-    EJS_gameName = "Sonic Adventure 2";
-    EJS_color = "#0064ff";
-    EJS_startOnLoaded = true;
-    EJS_pathtodata = "./data/";
-    EJS_gameUrl = "https://dl.dropboxusercontent.com/scl/fi/l0nmfd7g4plf022hnsdjb/Sonic-Adventure-2-v1.008-2001-Sega-US-M5-3S.chd?rlkey=40hmen9uy65erg90om1p5e7sf";
-</script>
+        ```
+        <script>
+            EJS_player = "#game";
+            EJS_core = "flycast_libretro";
+            EJS_gameName = "Sonic Adventure 2";
+            EJS_color = "#0064ff";
+            EJS_startOnLoaded = true;
+            EJS_pathtodata = "./data/";
+            EJS_gameUrl = "sa2.chd";
+        </script>
 
-<script src="./data/loader.js"></script>
-```
+        <script src="./data/loader.js"></script>
+        ```
 
-</body>
-</html>
+        </body>
+        </html>
 
     </body>
 </html>
